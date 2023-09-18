@@ -1,0 +1,12 @@
+CREATE TABLE tb_solicitud_vehiculo(
+    id                       INT ( 11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    placa                    VARCHAR(20) NULL,
+    sis_docente              VARCHAR(20) NULL,
+    marca                    VARCHAR(20) NULL,
+    modelo                   VARCHAR(20) NULL,
+    color                    VARCHAR(20) NULL,
+    fyh_creacion             DATETIME NULL,
+    fyh_actualizacion        DATETIME NULL,
+    fyh_eliminacio           DATETIME NULL,
+    estado                   VARCHAR(10) 
+ );
